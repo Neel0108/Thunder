@@ -1,0 +1,13 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "N2"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-s15cpeouu2bc"
+s3_prefix = "N2"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "GithubRepository=\"https://github.com/Neel0108/NewRepo.git\" Stage=\"dev\" GithubToken=\"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\""
+image_repositories = []
